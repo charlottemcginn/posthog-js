@@ -20,7 +20,7 @@ export default function Home() {
                     <button className="ph-no-capture">Ignore certain elements</button>
                 </div>
 
-                <p>Feature flag response: {JSON.parse(JSON.stringify(result))}</p>
+                <p>Feature flag response: {JSON.stringify(result)}</p>
             </main>
         </>
     )
