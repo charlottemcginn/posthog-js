@@ -3,7 +3,7 @@ import { useFeatureFlagPayload, usePostHog } from 'posthog-js/react'
 
 export default function Home() {
     const posthog = usePostHog()
-    const result = useFeatureFlagPayload('test')
+    const result = useFeatureFlagPayload('temperature-1')
 
     return (
         <>
